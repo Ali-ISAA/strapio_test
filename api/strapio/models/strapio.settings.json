@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "strapios",
+  "info": {
+    "name": "strapio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "message": {
+      "type": "string"
+    }
+  }
+}
